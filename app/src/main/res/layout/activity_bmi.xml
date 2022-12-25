@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e1d1d"
+    tools:context=".BmiActivity">
+
+    <ImageView
+        android:id="@+id/imageView_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_above="@id/contentLayout_id"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ok"
+        />
+
+    <RelativeLayout
+        android:id="@+id/contentLayout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@drawable/card_background"
+        android:layout_centerInParent="true"
+        >
+
+        <TextView
+            android:id="@+id/bmiDisplay_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="55"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/gendreDisplay_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:layout_below="@id/bmiDisplay_id"
+            android:layout_marginTop="15dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/bmiCategory_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You BMI Category 15"
+            android:fontFamily="@font/raleway"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/gendreDisplay_id"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+
+    </RelativeLayout>
+
+
+    <android.widget.Button
+        android:id="@+id/reCalculateBMI_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="15sp"
+        android:text="Re-Calculate your BMI"
+        android:layout_below="@id/contentLayout_id"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_background"
+        />
+
+
+
+
+</RelativeLayout>
