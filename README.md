@@ -9,3 +9,9 @@ Standard Body Mass Index calculator is an android app implemented using Java in 
 
 
 ![Bmi-4](https://user-images.githubusercontent.com/105268491/209496931-ba475d67-414c-4859-8a34-9300e87d7d95.png)
+
+
+![Screenshot_5_Moderate](https://user-images.githubusercontent.com/105268491/209497514-2da19ff0-3175-4f18-8381-e3fc4f752456.png)
+
+
+![Screenshot_5_OverWeight](https://user-images.githubusercontent.com/105268491/209497527-bbb69d13-2ff8-4d28-9a5d-5917f3700bfe.png)
