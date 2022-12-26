@@ -29,4 +29,4 @@ After setting the required information we have to click on "Calculate BMI" butto
 
 ![Bmi-4](https://user-images.githubusercontent.com/105268491/209496931-ba475d67-414c-4859-8a34-9300e87d7d95.png)
 
-#### if nothig is match then it will show "Obess class1"
+#### if nothig is matched then it will show "Obess class1"
