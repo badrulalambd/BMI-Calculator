@@ -1,5 +1,5 @@
 # BMI-Calculator
-###Standard Body Mass Index calculator is an android app implemented using Java in android studio
+### Standard Body Mass Index calculator is an android app implemented using Java in android studio
 
 ## Home screen
 From this first screen we have to select gender and then set height, weight, and age to calculate the BMI for a person.
