@@ -6,6 +6,8 @@ From this first screen we have to select gender and then set height, weight, and
 
 ![Bmi-1](https://user-images.githubusercontent.com/105268491/209492233-ba0c2e02-8892-44a0-8feb-ce2fb657e93d.png)
 
+After setting the required information we have to click on "Calculate BMI" button. After that according to our data this app will show an message about our health condition as below screenshot.
+
 ![Bmi-2](https://user-images.githubusercontent.com/105268491/209495962-94ae25db-1a66-43f5-afcd-250cd5a4b4cf.png)
 
 ![Bmi-3](https://user-images.githubusercontent.com/105268491/209496891-8e14b5ec-c7a9-41dc-b266-4e7fdbfe9b2a.png)
